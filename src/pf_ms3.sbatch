@@ -3,7 +3,7 @@
 #SBATCH --job-name=pf_ms3
 #SBATCH --output=pf_ms3.%A_%a.out
 #SBATCH --error=pf_ms3.%A_%a.err
-#SBATCH --time=0-1:00:00
+#SBATCH --time=0-2:00:00
 #SBATCH --partition=broadwl
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=28
